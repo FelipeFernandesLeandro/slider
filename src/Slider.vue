@@ -94,7 +94,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '~bulma/sass/utilities/variables';
+@import '~bulma/sass/utilities/all';
 
 input[type=range].slider {
   $radius: 290486px;
@@ -120,10 +120,8 @@ input[type=range].slider {
   height: var(--height);
   padding: 0;
   margin: 0;
-  // width: 100%;
   cursor: pointer;
   outline: none;
-  background: $border;
   -webkit-tap-highlight-color: transparent;
 
   &:focus {
